@@ -15,7 +15,7 @@ public class MainActivityJava extends AppCompatActivity {
         Button button = findViewById(R.id.showDialogBtn);
 
         button.setOnClickListener(v -> {
-            BottomSheetFragment bottomSheetFragment = new BottomSheetFragment();
+            BottomSheetFragmentJava bottomSheetFragment = new BottomSheetFragmentJava();
             bottomSheetFragment.show(getSupportFragmentManager(), bottomSheetFragment.getTag());
         });
     }
